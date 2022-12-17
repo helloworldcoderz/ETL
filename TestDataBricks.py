@@ -29,3 +29,7 @@ dbutils.fs.mount(
   source = "abfss://processed@azuredatabricksstgacc.dfs.core.windows.net/",
   mount_point = "/mnt/dbsmount/processed",
   extra_configs = configs)
+
+# COMMAND ----------
+
+dbutils.fs.list()
